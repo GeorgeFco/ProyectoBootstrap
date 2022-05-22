@@ -9,6 +9,10 @@ body{
     background-color: #dadadad7;
 }
 
+h5{
+    color: #0077b6;
+}
+
 .logoArriba{
     width: 90px;
 }
@@ -37,7 +41,8 @@ body{
 }
 
 .imagenIndex{
-    max-width: 300px;
+    width: 75%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 12px;
     display: block;
@@ -46,7 +51,7 @@ body{
 }
 
 .imagenIndex:hover{
-    max-width: 350px;
+    width: 90%;
     transition: 0.5s;
 
 }
@@ -54,7 +59,8 @@ body{
 
 /* HTML SNEAKERS */
 .foto{
-    max-width: 300px;
+    max-width: 85%;
+    height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
