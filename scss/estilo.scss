@@ -2,22 +2,11 @@
 @import "extend";
 @import "maps";
 @import "mixin";
-
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-  }
   
   body {
     background-color: #dadadad7;
   }
   
-  h5 {
-    color: $color-precio;
-  }
-
 .logoArriba{
     width: 90px;
 }

@@ -9,7 +9,7 @@
 
 /*MAP*/
 h3 {
-  color: violet; }
+  color: black; }
 
 h4 {
   color: black; }
@@ -29,17 +29,8 @@ h5 {
   font-size: 1.2rem;
   text-align: center; }
 
-* {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-decoration: none; }
-
 body {
   background-color: #dadadad7; }
-
-h5 {
-  color: #0077b6; }
 
 .logoArriba {
   width: 90px; }
