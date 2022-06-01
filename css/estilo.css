@@ -27,11 +27,11 @@ h5 {
   margin: 0 25px; }
 
 .nav-link:hover {
-  background-color: orange;
+  background-color: #d80032;
   border-radius: 4px; }
 
 .activo {
-  background-color: orange;
+  background-color: #d80032;
   border-radius: 4px; }
 
 .imagenIndex {
