@@ -1,5 +1,5 @@
 /*MAP*/
-$mapTitulos:(h3:black, h4:black, h5:#0077b6);
+$mapTitulos:(h3:rgba(0, 0, 0, 0.877), h4:black, h5:#0077b6);
 
 @each $titulo, $color in $mapTitulos {
     #{$titulo} {
