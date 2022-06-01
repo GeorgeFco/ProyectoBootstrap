@@ -1,0 +1,9 @@
+/*MIXIN*/
+@mixin estiloParrafo ($tamano, $alineacion){
+    font-size: $tamano;
+    text-align: $alineacion;
+}
+
+.parrafoChico{
+    @include estiloParrafo(1.2rem, center)
+}

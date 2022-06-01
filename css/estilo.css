@@ -1,3 +1,34 @@
+/*EXTEND*/
+.estiloTitulo, .estiloTitulo2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red; }
+
+.estiloTitulo2 {
+  color: blue; }
+
+/*MAP*/
+h3 {
+  color: violet; }
+
+h4 {
+  color: black; }
+
+h5 {
+  color: #0077b6; }
+
+/*GET MAP*/
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+/*MIXIN*/
+.parrafoChico {
+  font-size: 1.2rem;
+  text-align: center; }
+
 * {
   padding: 0;
   margin: 0;

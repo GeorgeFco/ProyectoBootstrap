@@ -1,0 +1,22 @@
+/*MAP*/
+$mapTitulos:(h3:violet, h4:black, h5:#0077b6);
+
+@each $titulo, $color in $mapTitulos {
+    #{$titulo} {
+        color: $color;
+    }
+}
+
+/*GET MAP*/
+$estilo: (
+    espaciado : 0,
+    margen : 0,
+    estilolista: none,
+    sindecoracion: none,);
+
+*{
+    padding: map-get($estilo , espaciado);
+    margin: map-get($estilo , margen);
+    list-style: map-get($estilo , estilolista);
+    text-decoration: map-get($estilo , sindecoracion);
+};
